@@ -1,14 +1,14 @@
-## descript
+## Description
 this is and connect/express middleware for generate a placeholder image.
 
-## install
+## Install
 ````sh
 npm install img-placeholder
 ````
 
-## use
+## Use
 
-### within Express
+### Within Express
 
 ````javascript
 var express = require('express');
