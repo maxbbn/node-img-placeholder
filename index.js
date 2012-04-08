@@ -10,12 +10,14 @@ var Canvas = require('canvas'),
     exts = ['png','jpg', 'jpeg'];
 
 /**
- * generge Image for Placeholder
+ * Generate image for placeholder use
  * url /genimg/400x300.png
  * url /genimg/400x300.jpg
  */
 module.exports = function (config) {
+
     config = config || {};
+
     for(k in defaultConfig) {
         if (!(k in config)) {
             config[k] = defaultConfig[k];
@@ -74,6 +76,7 @@ module.exports = function (config) {
             res.header('Content-Type','image/jpeg');
             stream = canvas.createJPEGStream()
         }
+
         stream.pipe(res, function (err) {
             if (err) {
                 next(err);
