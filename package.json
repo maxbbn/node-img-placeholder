@@ -1,0 +1,17 @@
+{
+  "author": "maxbbn <qipbbn@gmail.com> (maxbbn.com)",
+  "name": "img-placeholder",
+  "description": "this is and connect/express middleware for generate a placeholder image.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxbbn/node-img-placeholder.git"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "dependencies": {
+    "canvas": ">=0.10.3"
+  },
+  "devDependencies": {}
+}
